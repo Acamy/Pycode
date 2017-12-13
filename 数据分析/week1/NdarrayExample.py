@@ -3,7 +3,7 @@ import numpy as np
 a = np.arange(24).reshape((6,4))
 np.savetxt('a.csv',a,fmt='%.1f',delimiter=',')
 #print(a[:,1:3,:])
-#print(a.ndim)
+print(a.ndim)
 print(a.shape)
 print(a.size)
 print(a.dtype)
